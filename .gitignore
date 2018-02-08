@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+.npm
+*.iml
+*.pid
+*.seed
+*.log
+npm-debug.log*
+node_modules
+
+draft/
+dist/
+
+weex_tmp
+coverage
+/data
+src/demos

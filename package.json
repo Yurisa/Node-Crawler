@@ -1,0 +1,32 @@
+{
+  "name": "node-crawler",
+  "version": "1.0.0",
+  "description": "node爬虫",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yurisa/Node-Crawler.git"
+  },
+  "author": "yurisa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yurisa/Node-Crawler/issues"
+  },
+  "homepage": "https://github.com/Yurisa/Node-Crawler#readme",
+  "dependencies": {
+    "extract-zip": "^1.6.6",
+    "glob": "^7.1.2",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.3",
+    "mime": "^2.2.0",
+    "minimatch": "^3.0.4",
+    "path-is-absolute": "^1.0.1",
+    "process-nextick-args": "^2.0.0",
+    "puppeteer": "^1.0.0",
+    "request": "^2.83.0",
+    "ws": "^4.0.0"
+  }
+}
