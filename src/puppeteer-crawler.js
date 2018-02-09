@@ -43,7 +43,7 @@ class OnePaChong {
     console.log('正在打开新页面...')
     this.page = await this.browser.newPage();
     // 顺序爬取页面
-    for (let i = 30; i < this.maxIndex; i++) {
+    for (let i = 14; i < this.maxIndex; i++) {
       await this.getPageInfo(i)
     }
     this.closeBrowser()
