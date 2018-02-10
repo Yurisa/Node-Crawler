@@ -1,9 +1,9 @@
-var http = require('cheerio');
+var http = require('http');
 var fs = require('fs');
-var cheerio = require('cherio');
+var cheerio = require('cheerio');
 var request = require('request');
 var i = 0;
-var url = "";
+var url = "http://news.zust.edu.cn/html/yaowenjujiao/ttxw/18931.html";
 //初始化url
 
 function fetchPage(url){
@@ -24,9 +24,12 @@ function startRequest(url){
         //监听end事件，如果整个网页内容的html都获取完毕，就执行回调函数
         res.on('end', () => {
 
-           let $ = cheerio.load(html);//采用cheerio模块来解析html
+        //    let $ = cheerio.load(html);//采用cheerio模块来解析html
 
-           let time = 
+        //    let time = '';
+        console.log(html)
         })
     })
 }
+
+fetchPage(url)

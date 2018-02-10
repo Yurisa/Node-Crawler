@@ -18,17 +18,31 @@
   "homepage": "https://github.com/Yurisa/Node-Crawler#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "co": "^4.6.0",
+    "cryptiles": "^4.1.1",
+    "es6-promisify": "^6.0.0",
     "extract-zip": "^1.6.6",
+    "extsprintf": "^1.4.0",
     "glob": "^7.1.2",
+    "https-proxy-agent": "^2.1.1",
     "inflight": "^1.0.6",
     "inherits": "^2.0.3",
     "mime": "^2.2.0",
+    "mime-db": "^1.32.0",
     "minimatch": "^3.0.4",
+    "ms": "^2.1.1",
     "path-is-absolute": "^1.0.1",
+    "pend": "^1.2.0",
     "process-nextick-args": "^2.0.0",
+    "proxy-from-env": "^1.0.0",
     "puppeteer": "^1.0.0",
     "request": "^2.83.0",
+    "rimraf": "^2.6.2",
+    "sntp": "^3.0.1",
     "superagent": "^3.8.2",
-    "ws": "^4.0.0"
+    "verror": "^1.10.0",
+    "wrappy": "^1.0.2",
+    "ws": "^4.0.0",
+    "yauzl": "^2.9.1"
   }
 }
