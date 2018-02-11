@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "node爬虫",
   "main": "index.js",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/simple-crawler.js"
   },
   "repository": {
     "type": "git",
@@ -44,5 +50,9 @@
     "wrappy": "^1.0.2",
     "ws": "^4.0.0",
     "yauzl": "^2.9.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
